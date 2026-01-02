@@ -1,0 +1,10 @@
+﻿
+> 20260116mousikomi@0.1.0 lint
+> eslint
+
+
+C:\Users\info\Desktop\yoshiyuki\蜿､莠玖ｨ湾roject\VIBE CODING\20260116mousikomi\src\app\tokushoho\page.tsx
+  58:21  error  Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
+
+笨・1 problem (1 error, 0 warnings)
+
