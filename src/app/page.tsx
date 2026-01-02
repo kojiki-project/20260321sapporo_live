@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Ticket, Music, Heart, ExternalLink } from 'lucide-react';
+import { Calendar, MapPin, Ticket, Music, Heart, ExternalLink, Sparkles } from 'lucide-react';
 
 export default function Home() {
   const fadeInUp = {
@@ -254,7 +254,7 @@ export default function Home() {
                   href="https://buy.stripe.com/9B66oH5cqgjt4rr1sq5sA0y"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-black hover:bg-gray-200 transition-colors px-12 py-4 rounded-full font-bold text-xl tracking-wide shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] transform active:scale-95"
+                  className="bg-yellow-500 text-black hover:bg-yellow-400 transition-colors px-12 py-4 rounded-full font-bold text-xl tracking-wide shadow-[0_0_20px_rgba(234,179,8,0.3)] hover:shadow-[0_0_30px_rgba(234,179,8,0.5)] transform active:scale-95"
                 >
                   チケットを購入する
                 </a>
@@ -306,6 +306,31 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full block bg-yellow-900/80 hover:bg-yellow-800 text-white py-3 rounded-full font-bold transition-all border border-yellow-500/30"
+              >
+                応援する
+              </a>
+            </motion.div>
+
+            {/* Support Ticket (Together) */}
+            <motion.div
+              whileHover={{ y: -10 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="bg-gray-900/50 border border-orange-500/30 rounded-3xl p-8 relative overflow-hidden flex flex-col items-center text-center"
+            >
+              <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mb-6 text-orange-500">
+                <Sparkles className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">支援チケット<br />(まとめて応援)</h3>
+              <p className="text-gray-400 text-sm mb-6 flex-grow">鴨さん＆マミヨ・村上へ1杯！</p>
+              <div className="text-3xl font-black text-white mb-6">2,000<span className="text-base font-normal text-gray-400">円</span></div>
+              <a
+                href="https://buy.stripe.com/eVq28r7ky2sD5vv1sq5sA0B"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block bg-orange-600/80 hover:bg-orange-500 text-white py-3 rounded-full font-bold transition-all border border-orange-500/30"
               >
                 応援する
               </a>
