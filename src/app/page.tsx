@@ -20,7 +20,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/hero_final.png"
+            src="/20260321sapporo_live/hero_final.png"
             alt="Background"
             className="w-full h-full object-cover opacity-80"
           />
@@ -135,7 +135,7 @@ export default function Home() {
             >
               <div className="w-full md:w-1/2 aspect-[4/5] relative rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(255,0,0,0.1)] border border-white/5 group">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                <Image src="/kamo.png" alt="鴨頭嘉人" fill className="object-cover group-hover:scale-105 transition-transform duration-700" style={{ objectPosition: 'center top' }} />
+                <Image src="/20260321sapporo_live/kamo.png" alt="鴨頭嘉人" fill className="object-cover group-hover:scale-105 transition-transform duration-700" style={{ objectPosition: 'center top' }} />
                 <div className="absolute bottom-6 left-6 z-20">
                   <h3 className="text-3xl font-bold mb-1">鴨頭 嘉人</h3>
                   <p className="text-red-500 font-medium tracking-tight">YOSHIHITO KAMOGASHIRA</p>
@@ -171,7 +171,7 @@ export default function Home() {
             >
               <div className="w-full md:w-1/2 aspect-[4/5] relative rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(255,255,0,0.05)] border border-white/5 group">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
-                <Image src="/mamiyo.png" alt="マミヨ" fill className="object-cover group-hover:scale-105 transition-transform duration-700" style={{ objectPosition: 'center top' }} />
+                <Image src="/20260321sapporo_live/mamiyo.png" alt="マミヨ" fill className="object-cover group-hover:scale-105 transition-transform duration-700" style={{ objectPosition: 'center top' }} />
                 <div className="absolute bottom-6 right-6 z-20 text-right">
                   <h3 className="text-3xl font-bold mb-1">マミヨ</h3>
                   <p className="text-yellow-500 font-medium tracking-tight">MAMIYO</p>
