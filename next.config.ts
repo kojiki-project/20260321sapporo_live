@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/20260321sapporo_live',
 };
 
 export default nextConfig;
